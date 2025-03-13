@@ -1,0 +1,73 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+        text-align: center;
+            margin: 0;
+                padding: 0;
+                    background-color: white;
+                    }
+
+                    /* Logo */
+                    .logo {
+                        width: 180px;
+                            margin: 20px auto;
+                                display: block;
+                                }
+
+                                /* Description */
+                                .description {
+                                    margin: 15px auto;
+                                        font-size: 18px;
+                                            color: #333;
+                                                width: 80%;
+                                                }
+
+                                                /* Character Image */
+                                                .character-img {
+                                                    width: 250px;
+                                                        display: block;
+                                                            margin: 20px auto;
+                                                            }
+
+                                                            /* Selection Buttons */
+                                                            .selection h2 {
+                                                                font-size: 20px;
+                                                                    color: #0044cc;
+                                                                        margin: 20px 0 10px;
+                                                                        }
+
+                                                                        .buttons {
+                                                                            display: flex;
+                                                                                flex-wrap: wrap;
+                                                                                    justify-content: center;
+                                                                                        gap: 10px;
+                                                                                            padding: 10px;
+                                                                                            }
+
+                                                                                            button {
+                                                                                                background-color: #007BFF;
+                                                                                                    color: white;
+                                                                                                        border: none;
+                                                                                                            padding: 12px 18px;
+                                                                                                                font-size: 16px;
+                                                                                                                    border-radius: 5px;
+                                                                                                                        cursor: pointer;
+                                                                                                                            transition: 0.3s;
+                                                                                                                                outline: none;
+                                                                                                                                }
+
+                                                                                                                                button:hover {
+                                                                                                                                    background-color: #0056b3;
+                                                                                                                                    }
+
+                                                                                                                                    /* Footer */
+                                                                                                                                    footer {
+                                                                                                                                        margin-top: 20px;
+                                                                                                                                        }
+
+                                                                                                                                        footer a {
+                                                                                                                                            text-decoration: none;
+                                                                                                                                                font-size: 16px;
+                                                                                                                                                    color: #0044cc;
+                                                                                                                                                    }
+                                                                                                                                                    
