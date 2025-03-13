@@ -2,45 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>PYQdesk - Past Year Papers</title>
-                <link rel="stylesheet" href="style.css">
-                </head>
-                <body>
-                    <header>
-                            <img src="/storage/emulated/0/Pictures/Canva/PYQdesk.png" alt="PYQdesk Logo" class="logo">
-                                </header>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PYQdesk - Past Year Papers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="/storage/emulated/0/Pictures/Canva/PYQdesk.png" alt="PYQdesk Logo" class="logo">
+    </header>
 
-                                    <section class="description">
-                                            <p>Preparing for exams is tough, and finding past year question papers is even harder. <b>PYQdesk</b> is your one-stop solution, making it easy to access previous exam papers and excel in your studies!</p>
-                                                </section>
+    <section class="description">
+        <p>Preparing for exams is tough, but finding past-year question papers shouldn't be! <b>PYQdesk</b> is your one-stop solution to access previous exam papers and ace your studies!</p>
+    </section>
 
-                                                    <section class="character">
-                                                            <img src="placeholder-character.png" alt="Confused Student" class="character-img">
-                                                                </section>
+    <section class="character">
+        <img src="placeholder-character.png" alt="Confused Student" class="character-img">
+    </section>
 
-                                                                    <section class="selection">
-                                                                            <h2>Select Your Class</h2>
-                                                                                    <div class="buttons">
-                                                                                                <button>Class 5</button>
-                                                                                                            <button>Class 6</button>
-                                                                                                                        <button>Class 7</button>
-                                                                                                                                    <button>Class 8</button>
-                                                                                                                                                <button>Class 9</button>
-                                                                                                                                                            <button>Class 10</button>
-                                                                                                                                                                        <button>Class 11</button>
-                                                                                                                                                                                    <button>Class 12</button>
-                                                                                                                                                                                            </div>
+    <section class="selection">
+        <h2>Select Your Class</h2>
+        <div class="buttons">
+            <button onclick="redirectToYear('class5')">Class 5</button>
+            <button onclick="redirectToYear('class6')">Class 6</button>
+            <button onclick="redirectToYear('class7')">Class 7</button>
+            <button onclick="redirectToYear('class8')">Class 8</button>
+            <button onclick="redirectToYear('class9')">Class 9</button>
+            <button onclick="redirectToYear('class10')">Class 10</button>
+            <button onclick="redirectToYear('class11')">Class 11</button>
+            <button onclick="redirectToYear('class12')">Class 12</button>
+        </div>
 
-                                                                                                                                                                                                    <h2>Select Exam</h2>
-                                                                                                                                                                                                            <div class="buttons">
-                                                                                                                                                                                                                        <button>JEE</button>
-                                                                                                                                                                                                                                    <button>NEET</button>
-                                                                                                                                                                                                                                                <button>UPSC</button>
-                                                                                                                                                                                                                                                            <button>State Board</button>
-                                                                                                                                                                                                                                                                        <button>CBSE</button>
-                                                                                                                                                                                                                                                                                    <button>Other Exams</button>
-                                                                                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                                                                                </section>
-                                                                                                                                                                                                                                                                                                </body>
-                                                                                                                                                                                                                                                                                                </html>
+        <h2>Select Exam</h2>
+        <div class="buttons">
+            <button onclick="redirectToYear('jee')">JEE</button>
+            <button onclick="redirectToYear('neet')">NEET</button>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
