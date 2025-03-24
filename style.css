@@ -108,5 +108,58 @@ body {
     background-color: #cc0000;
 }
 
+/* Character Image */
+.character-container {
+    text-align: center;
+    margin-top: 20px;
+}
+.character-container img {
+    width: 200px;
+}
+
+/* Exam Selection Heading */
+.exam-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Exam Buttons */
+.exam-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.exam-buttons button {
+    width: 200px;
+    padding: 10px;
+    font-size: 18px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.exam-buttons button:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 14px;
+    color: gray;
+}
+footer a {
+    color: #007bff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
 
                                                                                                                                                     
