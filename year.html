@@ -5,17 +5,6 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>Select Year - PYQdesk</title>
                 <link rel="stylesheet" href="style.css">
-                    <script>
-                            function getCategory() {
-                                        const urlParams = new URLSearchParams(window.location.search);
-                                                    const category = urlParams.get('category');
-                                                                document.getElementById('category-title').innerText = category.replace(/class/gi, 'Class ').toUpperCase();
-                                                                        }
-
-                                                                                function redirectToPapers(year) {
-                                                                                            alert(`Redirecting to papers for ${year}`); // Later, link to actual question papers
-                                                                                                    }
-                                                                                                        </script>
                                                                                                         </head>
                                                                                                         <body onload="getCategory()">
 
@@ -29,11 +18,11 @@
                                                                                                                                                 </section>
 
                                                                                                                                                     <div class="buttons">
-                                                                                                                                                            <button onclick="redirectToPapers('2024-25')">2024-25</button>
-                                                                                                                                                                    <button onclick="redirectToPapers('2023-24')">2023-24</button>
-                                                                                                                                                                            <button onclick="redirectToPapers('2022-23')">2022-23</button>
-                                                                                                                                                                                    <button onclick="redirectToPapers('2021-22')">2021-22</button>
-                                                                                                                                                                                            <button onclick="redirectToPapers('2020-21')">2020-21</button>
+                                                                                                                                                            <button onclick="redirectToExam('2024-25')">2024-25</button>
+                                                                                                                                                                    <button onclick="redirectToExam('2023-24')">2023-24</button>
+                                                                                                                                                                            <button onclick="redirectToExam('2022-23')">2022-23</button>
+                                                                                                                                                                                    <button onclick="redirectToExam('2021-22')">2021-22</button>
+                                                                                                                                                                                            <button onclick="redirectToExam('2020-21')">2020-21</button>
                                                                                                                                                                                                 </div>
 
   <section class="sorry-section">                                                                                                                                                                                                  <button onclick="goHome()">Back to Home</button>
