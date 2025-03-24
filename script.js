@@ -5,3 +5,7 @@ function redirectToSorry(category) {
     window.location.href = `sorry.html?
 category=${category}`;
 }
+function redirectToExam(category) {
+    window.location.href = `exam.html?
+category=${category}`;
+}
