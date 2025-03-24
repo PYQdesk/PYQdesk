@@ -9,3 +9,7 @@ function redirectToExam(category) {
     window.location.href = `exam.html?
 category=${category}`;
 }
+function redirectTo11finalsub(category) {
+    window.location.href = `class11-final.html?
+category=${category}`;
+}
